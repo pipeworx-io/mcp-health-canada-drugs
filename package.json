@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-health-canada-drugs",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Health Canada Drug Product Database (fleet #522).",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8c57814c8b13e6106d56bcf397333e52a08a3204d41e373d975238052aed3f29",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-612f7398ce85f1270db0ab310440785497f139a4f1cc7abc74cfdec77c2025c2",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
