@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-health-canada-drugs",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "Health Canada Drug Product Database (fleet #522).",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-health-canada-drugs": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "health-canada-drugs"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-health-canada-drugs.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/health-canada-drugs",
   "pipeworx": {
-    "sourceHash": "v1-f739f4f83521d29e49025a984d28f3d9604656a500639816c54ef901a467be1e",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "health-canada-drugs",
+    "gatewaySlug": "health-canada-drugs",
+    "sourceHash": "v1-c3adf5393e7baa8fbaec80df95dedc7b4222c9bc441b389502df449e38885ce4",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
