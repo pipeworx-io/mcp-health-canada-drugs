@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-health-canada-drugs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Health Canada Drug Product Database (fleet #522).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "health-canada-drugs",
     "gatewaySlug": "health-canada-drugs",
-    "sourceHash": "v1-c3adf5393e7baa8fbaec80df95dedc7b4222c9bc441b389502df449e38885ce4",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-f2df2da11076c024cd70272bbe643e92684e049bef414c7ebf341f67e431b87a",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
